@@ -1,0 +1,12 @@
+Source: rareos-theme
+Section: gnome
+Priority: optional
+Maintainer: Mason Lee Back <mason@orioncomputing.net>
+Uploaders: Mason Lee Back <mason@orioncomputing.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/rareos/cinnamon-theme
+
+Package: rareos-theme
+Architecture: all
+Description: rareOS theme for Cinnamon
