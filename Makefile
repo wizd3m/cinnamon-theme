@@ -3,7 +3,7 @@ all:
 install:
 	mkdir -p $(DESTDIR)/usr/share/themes/rareOS
 	cp --no-preserve=mode,ownership -r \
-		rareOS \
+		cinnamon \
 		$(DESTDIR)/usr/share/themes/rareOS
 
 uninstall:
