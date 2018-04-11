@@ -1,3 +1,9 @@
+rareos-theme (1.0.1) artful; urgency=medium
+
+  * Fix small folder placement issue
+
+ -- Mason Lee Back <mason@orioncomputing.net>  Wed, 11 Apr 2018 14:56:00 -0500
+
 rareos-theme (1.0.0) artful; urgency=medium
 
   * First rlease shipping with rareOS
