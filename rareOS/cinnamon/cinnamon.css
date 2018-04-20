@@ -1487,10 +1487,10 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .applet-box {
+    font-size: 15px;
     padding-left: 3px;
     padding-right: 3px;
-    color: #ccc;
-    text-shadow: black 0px 0px 2px;
+    color: #fff;
     transition-duration: 300;
 }
 .panel-top .applet-box,
@@ -1525,7 +1525,7 @@ StScrollBar StButton#vhandle:hover {
 }
 .applet-icon {
     color: #ccc;
-    icon-size: 22px;
+    font-size: 29px;
 }
 .applet-box:checked .applet-icon,
 .applet-box:hover .applet-icon {
@@ -1815,4 +1815,3 @@ StScrollBar StButton#vhandle:hover {
 .systray {
     spacing: 5px;
 }
-
