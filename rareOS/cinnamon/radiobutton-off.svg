@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
@@ -15,32 +14,10 @@
    viewBox="0 0 16 16"
    id="svg4140"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (unknown)"
    sodipodi:docname="radiobutton-off.svg">
   <defs
-     id="defs4142">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4692">
-      <stop
-         style="stop-color:#292929;stop-opacity:1"
-         offset="0"
-         id="stop4694" />
-      <stop
-         style="stop-color:#515151;stop-opacity:1"
-         offset="1"
-         id="stop4696" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4692"
-       id="linearGradient4698"
-       x1="8"
-       y1="1037.3622"
-       x2="8"
-       y2="1044.3622"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs4142" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -72,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -82,7 +59,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <circle
-       style="fill:url(#linearGradient4698);fill-opacity:1;stroke:#868686;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#333333;fill-opacity:1;stroke:#868686;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4690"
        cx="8"
        cy="1044.3622"

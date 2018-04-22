@@ -66,7 +66,7 @@ StScrollBar StButton#vhandle:hover {
 #Tooltip {
     border: 1px solid rgba(255,255,255,0.9);
     padding: 1px 12px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
     color: #FFFFFF;
     font-size: 10pt;
     font-weight: normal;
