@@ -1,3 +1,9 @@
+rareos-theme (1.0.3) artful; urgency=medium
+
+  * Flatten icons, modify tooltips, fix calendar
+
+ -- Mason Lee Back <mason@orioncomputing.net>  Sun, 22 Apr 2018 10:34:51 -0500
+
 rareos-theme (1.0.2) artful; urgency=medium
 
   * Fix small icons with Cinnamon theme (with the exception of the Apps icon)
