@@ -1,10 +1,10 @@
 all:
 
 install:
-	mkdir -p $(DESTDIR)/usr/share/themes/rareOS
+	mkdir -p $(DESTDIR)/usr/share/themes/
 	cp --no-preserve=mode,ownership -r \
-		cinnamon \
-		$(DESTDIR)/usr/share/themes/rareOS
+		rareOS \
+		$(DESTDIR)/usr/share/themes/
 
 uninstall:
 	-rm -rf $(DESTDIR)/usr/share/themes/rareOS
