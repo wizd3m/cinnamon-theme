@@ -1,3 +1,9 @@
+rareos-theme (1.0.4) artful; urgency=medium
+
+  * Workspaces + music player fit theme now
+
+ -- Mason Lee Back <mason@orioncomputing.net>  Sun, 22 Apr 2018 11:45:05 -0500
+
 rareos-theme (1.0.3.1) artful; urgency=medium
 
   * Fix installation bug

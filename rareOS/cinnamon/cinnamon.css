@@ -66,7 +66,7 @@ StScrollBar StButton#vhandle:hover {
 #Tooltip {
     border: 1px solid rgba(255,255,255,0.9);
     padding: 1px 12px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     color: #FFFFFF;
     font-size: 10pt;
     font-weight: normal;
@@ -80,9 +80,7 @@ StScrollBar StButton#vhandle:hover {
 .sound-player-overlay StButton {
     color: white;
     border: 1px solid #8b8b8b;
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(255, 255, 255, 0.2);
-    background-gradient-end: rgba(255, 255, 255, 0);
+    background-color: #66666655;
 }
 .notification-button:hover,
 .notification-icon-button:hover, .modal-dialog-button:hover,
@@ -446,7 +444,7 @@ StScrollBar StButton#vhandle:hover {
 }
 .workspace-thumbnails {
     spacing: 14px;
-}
+}bumpmap cinnamon
 .workspace-add-button {
     background-image: url("add-workspace.png");
     height: 200px;
@@ -509,9 +507,7 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .expo-background {
-    background-gradient-start: #000;
-    background-gradient-end: #AAA;
-    background-gradient-direction: vertical;
+    background-bumpmap: url("/usr/share/cinnamon/bumpmaps/frost.png"); 
 }
 
 .workspace-overview-background-shade {
@@ -1285,9 +1281,9 @@ StScrollBar StButton#vhandle:hover {
     width: 300px;
     padding: 12px 16px;
     spacing: 0.5em;
-    background-color: rgba(80,80,80,0.9);
+    background-color: rgba(00,00,00,0.8);
     color: #ffffff;
-    border-top: 2px solid #a5a5a5;
+    border-top: 1px solid #424242;
 }
 
 .sound-player-overlay StButton {
@@ -1640,30 +1636,23 @@ StScrollBar StButton#vhandle:hover {
 
 .expo-workspaces-name-entry {
     padding: 5px;
-    border-radius: 4px;
-    color: rgb(200, 200, 200);
-    border: 2px solid rgb(136,138,133);
-    background-gradient-start: rgb(128,128,128);
-    background-gradient-end: rgb(85,85,85);
-    background-gradient-direction: vertical;
-    selected-color: black;
+    color: #FFFFFF;
+    border: 2px solid #424242;
+    background-color: rgba(0,0,0,0.8);
     caret-color: rgb(128, 128, 128);
     caret-size: 1px;
     width: 250px;
     height: 15px;
-    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6);
     text-align: center;
 }
 
 .expo-workspaces-name-entry#selected {
-    background-gradient-start: rgb(200,200,200);
-    background-gradient-end: white;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: #EEEEEE;
 }
 
 .expo-workspaces-name-entry:focus {
-    color: rgb(0, 0, 0);
+    color: #FFFFFF;
     font-weight: bold;
     font-style: italic;
     transition-duration: 300;
@@ -1815,3 +1804,4 @@ StScrollBar StButton#vhandle:hover {
 .systray {
     spacing: 5px;
 }
+
